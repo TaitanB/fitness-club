@@ -1,0 +1,45 @@
+.moods {
+  display: flex;
+  gap: 102px;
+  margin-top: 213px;
+  align-items: center;
+
+  &__img {
+    position: relative;
+    width: 566px;
+    height: 711px;
+    background-image: url(../image/moods-1x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  &__dots {
+    bottom: 0;
+    right: -43px;
+  }
+
+  &__content {
+    width: 502px;
+  }
+
+  &__title {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 26px;
+    color: #ff2625;
+    margin-bottom: 28px;
+  }
+
+  &__subtitle {
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.3;
+    color: #3a1212;
+    margin-bottom: 22px;
+  }
+
+  &__descr {
+    margin-bottom: 42px;
+  }
+}

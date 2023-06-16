@@ -1,0 +1,83 @@
+.hero {
+  display: flex;
+  background-image: url(../image/exercise.png);
+  background-repeat: no-repeat;
+  background-position: left 215px bottom;
+
+  &__content {
+    width: 472px;
+    margin-top: 210px;
+    margin-bottom: 294px;
+  }
+
+  &__title {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 26px;
+    color: #ff2625;
+    margin-bottom: 39px;
+    display: flex;
+    align-items: baseline;
+
+    &::before {
+      content: "";
+      width: 26px;
+      height: 2px;
+      background: #ff2625;
+    }
+  }
+
+  &__subtitle {
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+    color: #3a1212;
+    margin-bottom: 23px;
+  }
+
+  &__descr {
+    margin-bottom: 61px;
+  }
+
+  &__know-btn {
+    margin-left: 29px;
+  }
+
+  &__img {
+    width: 758px;
+    height: 1007px;
+
+    background-image: url(../image/hero-1x.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    top: -93px;
+    right: 0;
+  }
+
+  &__polygon {
+    position: absolute;
+    left: 785px;
+    top: 386px;
+    width: 128px;
+    height: 128px;
+    border: none;
+    border-radius: 50%;
+    background: #ffffff;
+
+    background-image: url(../image/polygon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover,
+    &:focus {
+      filter: drop-shadow(0px 40px 80px rgba(255, 71, 70, 0.1));
+    }
+  }
+
+  &__dots {
+    right: 24px;
+    bottom: -59px;
+  }
+}

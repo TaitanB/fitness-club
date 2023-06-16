@@ -1,0 +1,82 @@
+.testimonial {
+  display: flex;
+  gap: 100px;
+  position: relative;
+  margin-top: 205px;
+
+  &__img {
+    width: 500px;
+    height: 719px;
+    background-image: url(../image/testimonial-1x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 26px;
+    color: #ff2625;
+    margin-bottom: 28px;
+  }
+
+  &__subtitle {
+    max-width: 370px;
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.3;
+    color: #3a1212;
+  }
+
+  &__container {
+    box-sizing: border-box;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 2px 100px 2px 2px;
+    width: 624px;
+    height: 426px;
+    padding: 79px 60px 61px 61px;
+    right: 315px;
+    bottom: 49px;
+    z-index: 1;
+
+    background-image: url(../image/comma.png);
+    background-position: top 65px center;
+    background-repeat: no-repeat;
+  }
+
+  &__descr {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    margin-bottom: 39px;
+  }
+
+  &__name {
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #3a1212;
+    margin-bottom: 8px;
+  }
+
+  &__location {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  &__arrows {
+    bottom: 48px;
+    right: 61px;
+  }
+
+  &__dots {
+    width: 159px;
+    height: 180px;
+    bottom: 0;
+    right: 216px;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,20 @@
+body {
+  font-family: "Alegreya", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #504747;
+  background: #fffafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dots {
+  position: absolute;
+  width: 118px;
+  height: 134px;
+  background-image: url(../image/dots.png);
+  background-repeat: no-repeat;
+}

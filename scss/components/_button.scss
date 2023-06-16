@@ -1,0 +1,23 @@
+.button {
+  background: #ff2625;
+  border-radius: 29px;
+  filter: drop-shadow(0px 20px 40px rgba(255, 155, 154, 0.25));
+  border: 0.75px solid #ff2625;
+  width: 200px;
+  height: 58px;
+
+  font-family: "Alegreya";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.6;
+  font-weight: 700;
+  color: #ffffff;
+
+  transition: all 400ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: #3a1212;
+    background: transparent;
+  }
+}

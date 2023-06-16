@@ -1,0 +1,133 @@
+.footer {
+  width: 100%;
+  margin-top: 262px;
+  background: rgba(255, 243, 244, 0.9);
+  padding: 67px 0 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    gap: 168px;
+    margin-bottom: 43px;
+  }
+
+  &__soc {
+    width: 333px;
+  }
+
+  &__logo-text {
+    font-family: "Abril Fatface";
+    font-style: italic;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #3a1212;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 33px;
+  }
+
+  &__logo {
+    width: 48px;
+    height: 48px;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  &__descr {
+    line-height: 1.55;
+    letter-spacing: -0.02em;
+    margin-bottom: 26px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  &__soc-list {
+    display: flex;
+    gap: 14px;
+  }
+
+  &__soc-link {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill: #ff2625;
+    background: #ffffff;
+    transition: all 400ms ease-in-out;
+
+    &:hover,
+    &:focus {
+      fill: #ffffff;
+      background: #ff2625;
+    }
+  }
+
+  &__link {
+    line-height: 1.36;
+    text-align: center;
+
+    transition: color 400ms ease-in-out;
+
+    &:hover,
+    &:focus {
+      color: #3a1212;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #ff2625;
+      border-radius: 1.5px;
+      margin: 0 auto;
+      transition: width 400ms ease-in-out;
+    }
+
+    &:hover::after,
+    &:focus::after {
+      width: 100%;
+    }
+  }
+
+  &__icon {
+    fill: red;
+  }
+
+  &__title {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    color: #3a1212;
+    margin-bottom: 39px;
+  }
+
+  &__bottom-text {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #a69b9b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+  }
+
+  &__like {
+    stroke: #ff2625;
+    fill: #ffffff;
+  }
+}
