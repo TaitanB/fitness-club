@@ -78,19 +78,17 @@ body {
   width: 1170px;
   padding: 0 215px;
   margin: 0 auto;
-  position: relative;
 }
 
 .section {
-  padding-bottom: 170px;
+  position: relative;
 }
 
 .main-bg {
   background-image: url(../image/shapes.png), url(../image/extra-elements.png);
   background-repeat: no-repeat;
   background-position: top 94px center, top 214px center;
-  width: 1600px;
-  height: 100%;
+  margin: 0 auto;
 }
 
 .button {
